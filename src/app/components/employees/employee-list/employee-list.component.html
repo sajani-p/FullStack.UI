@@ -2,7 +2,7 @@
 <div class="container my-5">
     <h1 class="mb-3">Employees</h1>
 
-    <table class="table" *ngIf="employees">
+    <table class="table" *ngIf="employees && employees.length > 0">
         <thead>
             <tr>
                 <th>ID</th>
@@ -22,5 +22,12 @@
             </tr>
         </tbody>
     </table>
-    <p *ngIf="!employees">No Employees Found</p>
+    <p *ngIf="!employees || employees.length <= 0 ">No Employees Found</p>
+</div>
+
+<div class="column">
+    <div class="d-grid gap-2 col-2 mx-auto">
+        <button class="btn btn-primary" type="button">Add Employees</button>
+        <button class="btn btn-danger" type="button">Delete Employees</button>
+    </div>
 </div>

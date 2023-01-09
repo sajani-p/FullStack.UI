@@ -13,7 +13,7 @@ export class EmployeeListComponent implements OnInit{
     {
       id: 'emp001',
       name: 'Sajani Pathegama',
-      email: 'sajanipathegama@gmail.com',
+      email: 'sajani@gmail.com',
       phone: 715670110,
       salary: 12250,
       department: 'IT',
@@ -29,7 +29,7 @@ export class EmployeeListComponent implements OnInit{
     {
       id: 'emp003',
       name: 'Lumini Pathegama',
-      email: 'luminipathegama@gmail.com',
+      email: 'lumini@gmail.com',
       phone: 702088268,
       salary: 37000,
       department: 'Manager',
